@@ -10,6 +10,7 @@ packages = [{include = "tut_django_channels"}]
 python = "^3.10"
 django = "^4.1.4"
 channels = {extras = ["daphne"], version = "^4.0.0"}
+channels-redis = "^4.0.0"
 
 
 [build-system]
